@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
 	<children>
-		<child name="Test1" key="{6F5EAFCF-6426-45C3-9B1F-9E104B9D3ADC}" path="Test1.tcKDTest" />
+		<child name="LoadImgContainerTest" key="{56D2E400-E337-480B-B967-C5ABB73C2112}" path="LoadImgContainerTest.tcKDTest" />
+		<child name="EnterTextToHideTest" key="{D584A1EF-C1E0-4D29-9BC1-E732C4E2BD30}" path="EnterTextToHideTest.tcKDTest" />
+		<child name="EnterTextToHideThatLargerThanAllowedTest" key="{F2412538-2724-41F8-8EB8-56AE66E328C5}" path="EnterTextToHideThatLargerThanAllowedTest.tcKDTest" />
+		<child name="HideTextTest" key="{C20A6C1B-9458-4654-A4FB-E59A803A5503}" path="HideTextTest.tcKDTest" />
+		<child name="HideTextWithCryptoTest" key="{B29987D3-C985-45C5-85FA-E0323C1174FA}" path="HideTextWithCryptoTest.tcKDTest" />
+		<child name="ExtractTextTest" key="{A3560849-4EF3-4608-B92A-F15D07A7DDB0}" path="ExtractTextTest.tcKDTest" />
+		<child name="ExtractTextWithCryptoTest" key="{F0E2947B-7312-4DEF-BF0F-283919570E8A}" path="ExtractTextWithCryptoTest.tcKDTest" />
+		<child name="ExtractTextWithCryptoIncorrectTest" key="{49E4E8F9-1653-4CA3-9B02-AA6CEFD85E9C}" path="ExtractTextWithCryptoIncorrectTest.tcKDTest" />
+		<child name="DDTest" key="{D98F98AF-45D5-492E-8889-818673358D48}" path="DDTest.tcKDTest" />
 	</children>
 </Root>

@@ -3,6 +3,778 @@
 	<Storages Current="0">
 		<Child Name="Default Configuration" />
 	</Storages>
-	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" />
-	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" />
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{82B862FC-C2D1-48A3-B10A-79888983C365}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="InfoHider" Key="{81483B93-BFD5-4D25-89E5-06F217C0C55E}">
+						<TypeInfo Item0="{09078C53-8E60-4AEF-85B1-C91C62C7CCD2}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Info-Hider" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="MainWindow" Key="{C10CCFAE-7ED6-4915-AF35-C96B0809CF79}">
+								<Image FileName="1106553173" Left="0" Top="0" Right="461" Bottom="769" />
+								<TypeInfo Item0="{31BCB9F8-6605-44FD-A8B8-C88199CC138A}" />
+								<Properties>
+									<Property Name="objectName">
+										<Value Value="MainWindow" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="CentralWidget" Key="{7F713E09-567B-40FE-9A32-71FC8C894452}">
+										<Image FileName="370727281" Left="8" Top="31" Right="453" Bottom="761" />
+										<TypeInfo Item0="{775D4EEB-B82D-4923-A7F5-0430EFA89FE2}" />
+										<Properties>
+											<Property Name="objectName">
+												<Value Value="centralwidget" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="TabWidget" Key="{DF9E407E-5FA4-48E5-B7A2-F6C9B6CF69AF}">
+												<Image FileName="370727281" Left="18" Top="41" Right="445" Bottom="752" />
+												<TypeInfo Item0="{C98970DE-C09E-4361-843E-0BAE44D15275}" />
+												<Properties>
+													<Property Name="objectName">
+														<Value Value="tabWidget" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="TabWidgetArea" Key="{7B76C316-CC92-41A8-9BD8-B454E136C640}">
+														<Image FileName="370727281" Left="20" Top="63" Right="441" Bottom="748" />
+														<TypeInfo Item0="{775D4EEB-B82D-4923-A7F5-0430EFA89FE2}" />
+														<Properties>
+															<Property Name="objectName">
+																<Value Value="qt_tabwidget_stackedwidget" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="HideInfoTab" Key="{F34DED3E-2428-4A29-89A6-A644C595D59F}">
+																<Image FileName="370727281" Left="20" Top="63" Right="441" Bottom="748" />
+																<TypeInfo Item0="{775D4EEB-B82D-4923-A7F5-0430EFA89FE2}" />
+																<Properties>
+																	<Property Name="objectName">
+																		<Value Value="tab" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="LoadContainerSection" Key="{DA15250E-010B-4A3E-B837-4346791DF7DB}">
+																		<Image FileName="370727281" Left="30" Top="73" Right="430" Bottom="403" />
+																		<TypeInfo Item0="{775D4EEB-B82D-4923-A7F5-0430EFA89FE2}" />
+																		<Properties>
+																			<Property Name="objectName">
+																				<Value Value="gbSelectionContainer" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="BtnUploadImage" Key="{12661F51-B609-41F4-90E5-86FB59DDC20B}">
+																				<Image FileName="370727281" Left="340" Top="113" Right="421" Bottom="136" />
+																				<TypeInfo Item0="{0DE7887C-9E32-4384-BA53-64C94B6316C0}" />
+																				<Properties>
+																					<Property Name="objectName">
+																						<Value Value="pbUploadImage" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																			<Child Name="ImageContainer" Key="{E5003F4B-D6BB-41FA-A111-64ADEB082944}">
+																				<Image FileName="-976894013" Left="40" Top="164" Right="421" Bottom="371" />
+																				<TypeInfo Item0="{775D4EEB-B82D-4923-A7F5-0430EFA89FE2}" />
+																				<Properties>
+																					<Property Name="objectName">
+																						<Value Value="lblImgContainer" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																			<Child Name="ImageResolution" Key="{2023C99B-B384-4676-BD4B-16CA7F9EEE74}">
+																				<Image FileName="-976894013" Left="40" Top="378" Right="181" Bottom="394" />
+																				<TypeInfo Item0="{775D4EEB-B82D-4923-A7F5-0430EFA89FE2}" />
+																				<Properties>
+																					<Property Name="objectName">
+																						<Value Value="lblImgResolution" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																	<Child Name="TextToHideSection" Key="{CE48D9C6-340B-442E-9D98-F5125E8654DE}">
+																		<Image FileName="-976894013" Left="30" Top="413" Right="431" Bottom="694" />
+																		<TypeInfo Item0="{775D4EEB-B82D-4923-A7F5-0430EFA89FE2}" />
+																		<Properties>
+																			<Property Name="objectName">
+																				<Value Value="gbInfoToHide" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="CharactersLeft" Key="{A5E538E4-56A4-4EE2-9128-ECDB1B213CBA}">
+																				<Image FileName="-976894013" Left="40" Top="583" Right="191" Bottom="599" />
+																				<TypeInfo Item0="{775D4EEB-B82D-4923-A7F5-0430EFA89FE2}" />
+																				<Properties>
+																					<Property Name="objectName">
+																						<Value Value="lblCharLeft" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																			<Child Name="TextToHide" Key="{8E2FA06C-BE22-49C6-930C-156086BA20F7}">
+																				<Image FileName="199646979" Left="40" Top="453" Right="421" Bottom="584" />
+																				<Properties>
+																					<Property Name="objectName">
+																						<Value Value="teTextToHide" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="TextToHideArea" Key="{AEDA0462-459E-4FD2-8508-958B3275F295}">
+																						<Image FileName="199646979" Left="41" Top="454" Right="420" Bottom="583" />
+																						<TypeInfo Item0="{B13F0D08-6244-4EC2-81CC-2B157DAFE3B7}" />
+																						<Properties>
+																							<Property Name="objectName">
+																								<Value Value="qt_scrollarea_viewport" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																			<Child Name="IsUseCryptography" Key="{F9B01DFA-D805-4184-ABC4-E9F866A5765B}">
+																				<Image FileName="940536998" Left="40" Top="623" Right="421" Bottom="640" />
+																				<TypeInfo Item0="{B13F0D08-6244-4EC2-81CC-2B157DAFE3B7}" />
+																				<Properties>
+																					<Property Name="objectName">
+																						<Value Value="cbUseCryptography" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																			<Child Name="SecretKey" Key="{4A10E403-D49F-4001-8F8A-AEA2FE3C9D53}">
+																				<Image FileName="-259688222" Left="40" Top="663" Right="421" Bottom="683" />
+																				<TypeInfo Item0="{B13F0D08-6244-4EC2-81CC-2B157DAFE3B7}" />
+																				<Properties>
+																					<Property Name="objectName">
+																						<Value Value="leSecretKey" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																	<Child Name="BtnHideInfo" Key="{0F8FDD8D-03FD-4CA6-BFCF-36657183F0C9}">
+																		<Image FileName="231247015" Left="30" Top="703" Right="431" Bottom="744" />
+																		<TypeInfo Item0="{B13F0D08-6244-4EC2-81CC-2B157DAFE3B7}" />
+																		<Properties>
+																			<Property Name="objectName">
+																				<Value Value="pbHideInfo" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="GetInfoTab" Key="{039F222E-1E37-4239-B16D-C5BB5FD1B1EE}">
+																<Image FileName="1335866701" Left="20" Top="63" Right="441" Bottom="748" />
+																<Properties>
+																	<Property Name="objectName">
+																		<Value Value="tab_2" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="ContainerWithDataSection" Key="{B61693F1-EDD3-493C-8F48-56373E4D8AFF}">
+																		<Image FileName="-1039427264" Left="30" Top="73" Right="430" Bottom="403" />
+																		<Properties>
+																			<Property Name="objectName">
+																				<Value Value="gbSelectionContainerWithData" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="BtnUploadImageWithData" Key="{FDF5B938-19C9-480E-A0FF-71E24F11FDF6}">
+																				<Image FileName="-1039427264" Left="340" Top="113" Right="421" Bottom="136" />
+																				<TypeInfo Item0="{B13F0D08-6244-4EC2-81CC-2B157DAFE3B7}" />
+																				<Properties>
+																					<Property Name="objectName">
+																						<Value Value="pbUploadImageWithData" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																			<Child Name="lePathToContainerWithData" Key="{2B66C1D2-ADEA-46A5-9379-3A5D3E237B9A}">
+																				<Image FileName="-1572435018" Left="40" Top="114" Right="331" Bottom="135" />
+																				<TypeInfo Item0="{B13F0D08-6244-4EC2-81CC-2B157DAFE3B7}" />
+																				<Properties>
+																					<Property Name="objectName">
+																						<Value Value="lePathToContainerWithData" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																	<Child Name="ExtractedDataSection" Key="{1CF489A3-7CD9-47E6-8671-4E9D7C2C04FD}">
+																		<Image FileName="537444071" Left="30" Top="413" Right="431" Bottom="694" />
+																		<TypeInfo Item0="{775D4EEB-B82D-4923-A7F5-0430EFA89FE2}" />
+																		<Properties>
+																			<Property Name="objectName">
+																				<Value Value="gbExtractedData" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="ExtractedData" Key="{0CE15DD1-EB9E-4AF6-AC10-A8B4A8912D33}">
+																				<Image FileName="537444071" Left="40" Top="513" Right="421" Bottom="684" />
+																				<TypeInfo Item0="{775D4EEB-B82D-4923-A7F5-0430EFA89FE2}" />
+																				<Properties>
+																					<Property Name="objectName">
+																						<Value Value="ExtractedData" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																			<Child Name="IsUseCryptoToExtract" Key="{EB58B863-3220-4CA4-B2AC-F0A23F91A3DE}">
+																				<Image FileName="263868013" Left="40" Top="433" Right="321" Bottom="450" />
+																				<TypeInfo Item0="{B13F0D08-6244-4EC2-81CC-2B157DAFE3B7}" />
+																				<Properties>
+																					<Property Name="objectName">
+																						<Value Value="cbUseCryptoToDecrypt" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																			<Child Name="SecretKey" Key="{87F4B00F-8703-4BD9-B734-272335554B50}">
+																				<Image FileName="2024463733" Left="40" Top="473" Right="421" Bottom="493" />
+																				<TypeInfo Item0="{B13F0D08-6244-4EC2-81CC-2B157DAFE3B7}" />
+																				<Properties>
+																					<Property Name="objectName">
+																						<Value Value="leSecretKeyToDecrypt" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																	<Child Name="BtnExtractData" Key="{EA30F521-F321-4EDD-92CD-2BB3CBC695B1}">
+																		<Image FileName="-693841426" Left="30" Top="703" Right="431" Bottom="744" />
+																		<TypeInfo Item0="{B13F0D08-6244-4EC2-81CC-2B157DAFE3B7}" />
+																		<Properties>
+																			<Property Name="objectName">
+																				<Value Value="pbExtractData" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="OpenFileDialog" Key="{EE4BE623-6998-4180-8A10-38B8ADEEA929}">
+								<Image FileName="1100624929" Left="0" Top="0" Right="960" Bottom="540" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Select the file in which you want to hide the information" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DUIViewWndClassName" Key="{60314DFC-9FF4-4F9F-B61B-526127AB8DE7}">
+										<Image FileName="1100624929" Left="8" Top="73" Right="952" Bottom="456" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="DUIViewWndClassName" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Explorer_Pane" Key="{B98DAFD8-E71B-40B5-B138-7B424743C87B}">
+												<Image FileName="1100624929" Left="8" Top="73" Right="952" Bottom="456" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="DirectUI" />
+													</Property>
+													<Property Name="ClassName">
+														<Value Value="HWNDView" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="pane" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Explorer_Pane" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="CtrlNotifySink" Key="{9F239DD0-7D24-48FF-84B2-27575CECCDCF}">
+														<Image FileName="1100624929" Left="168" Top="104" Right="952" Bottom="456" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="CtrlNotifySink" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="3" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="ShellView" Key="{99E5B7BD-D723-4602-8E98-BED54FCEAA69}">
+																<Image FileName="1100624929" Left="168" Top="104" Right="952" Bottom="456" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="SHELLDLL_DefView" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value Value="ShellView" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="Items_View" Key="{33BA597D-52B0-437E-8E76-971CAC553E6B}">
+																		<Image FileName="1100624929" Left="168" Top="104" Right="952" Bottom="456" />
+																		<Properties>
+																			<Property Name="FrameworkId">
+																				<Value Value="DirectUI" />
+																			</Property>
+																			<Property Name="ClassName">
+																				<Value Value="UIItemsView" />
+																			</Property>
+																			<Property Name="LocalizedControlType">
+																				<Value Value="list" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value Value="Items_View" />
+																			</Property>
+																			<Property Name="ObjectGroupIndex">
+																				<Value Value="1" Type="0" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="Image_png" Key="{095AB726-E668-430B-83CA-468C5B0DB2EE}">
+																				<Image FileName="1100624929" Left="512" Top="110" Right="617" Bottom="226" />
+																				<TypeInfo Item0="{B13F0D08-6244-4EC2-81CC-2B157DAFE3B7}" />
+																				<Properties>
+																					<Property Name="FrameworkId">
+																						<Value Value="DirectUI" />
+																					</Property>
+																					<Property Name="ClassName">
+																						<Value Value="UIItem" />
+																					</Property>
+																					<Property Name="LocalizedControlType">
+																						<Value Value="list item" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="Image_png" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																			<Child Name="ResultImage_png" Key="{682BB07B-8477-41E1-B67F-C46319FB0E5D}">
+																				<Image FileName="1564717284" Left="622" Top="110" Right="727" Bottom="226" />
+																				<Properties>
+																					<Property Name="FrameworkId">
+																						<Value Value="DirectUI" />
+																					</Property>
+																					<Property Name="ClassName">
+																						<Value Value="UIItem" />
+																					</Property>
+																					<Property Name="LocalizedControlType">
+																						<Value Value="list item" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="ResultImage_png" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="Name" Key="{6B060D34-BDA6-4762-B6CF-847FC7A2261E}">
+																						<Image FileName="1564717284" Left="628" Top="208" Right="721" Bottom="224" />
+																						<TypeInfo Item0="{B13F0D08-6244-4EC2-81CC-2B157DAFE3B7}" />
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value Value="DirectUI" />
+																							</Property>
+																							<Property Name="ClassName">
+																								<Value Value="UIProperty" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value Value="edit" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="Name" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																			<Child Name="ResultImageWithCrypto_png" Key="{F8307A0E-9945-41FB-B057-E9B8208B31A8}">
+																				<Image FileName="1472315204" Left="732" Top="110" Right="837" Bottom="241" />
+																				<TypeInfo Item0="{B13F0D08-6244-4EC2-81CC-2B157DAFE3B7}" />
+																				<Properties>
+																					<Property Name="FrameworkId">
+																						<Value Value="DirectUI" />
+																					</Property>
+																					<Property Name="ClassName">
+																						<Value Value="UIItem" />
+																					</Property>
+																					<Property Name="LocalizedControlType">
+																						<Value Value="list item" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="ResultImageWithCrypto_png" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="BtnOpen" Key="{DE3CF9D8-3DC0-487A-B97C-D013DB473010}">
+										<Image FileName="1184987900" Left="747" Top="494" Right="835" Bottom="520" />
+										<TypeInfo Item0="{44762082-5043-4F24-9CA9-699CDAD455E7}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="&amp;Open" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="cbxFileName" Key="{E0F194C2-F327-4FEC-8656-C16459BD57FB}">
+										<Image FileName="-1226250635" Left="197" Top="465" Right="735" Bottom="489" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ComboBoxEx32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="ComboBox" Key="{3CBED562-6629-4B1E-B8D7-944C1F1014E0}">
+												<Image FileName="-1226250635" Left="197" Top="465" Right="735" Bottom="489" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="ComboBox" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Edit" Key="{731F7F5B-D18C-426A-B586-F3C532050B5E}">
+														<Image FileName="-1226250635" Left="201" Top="470" Right="715" Bottom="485" />
+														<TypeInfo Item0="{91E044A0-EC57-4C4A-B862-AFFD14300280}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Edit" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="WorkerW" Key="{15E16B17-694E-49DB-AD9A-6ECC0F064D55}">
+										<Image FileName="-1490881782" Left="8" Top="31" Right="952" Bottom="73" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="WorkerW" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="ReBarWindow32" Key="{944114B4-C462-4494-8DBA-9387025C14CB}">
+												<Image FileName="-1490881782" Left="8" Top="31" Right="952" Bottom="73" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="ReBarWindow32" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="AddressBandRoot" Key="{8CF10830-0D32-46C6-B61F-E488E86483E1}">
+														<Image FileName="-1490881782" Left="113" Top="31" Right="727" Bottom="70" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Address Band Root" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="progress" Key="{44CA77D6-93D1-4DAB-805F-CA7E15FAF6B2}">
+																<Image FileName="-1490881782" Left="115" Top="36" Right="725" Bottom="66" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="msctls_progress32" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="BreadcrumbParent" Key="{79203056-AEB0-400C-8361-9B3009709299}">
+																		<Image FileName="-1490881782" Left="115" Top="36" Right="659" Bottom="66" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value Value="Breadcrumb Parent" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="toolbarAddressDesktop" Key="{0ACF2ADE-AA2A-4C2B-940B-2AD6F88BAFD3}">
+																				<Image FileName="-1490881782" Left="115" Top="36" Right="659" Bottom="66" />
+																				<TypeInfo Item0="{CA2CF9D6-FECF-445C-BC40-EABA29955FC1}" />
+																				<Properties>
+																					<Property Name="WndClass">
+																						<Value Value="ToolbarWindow32" />
+																					</Property>
+																					<Property Name="WndCaption">
+																						<Value Value="Address: Desktop" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																	<Child Name="comboBox" Key="{9121B2C9-12E6-4826-B9C4-58034C10FF15}">
+																		<Image FileName="-759447318" Left="115" Top="36" Right="692" Bottom="66" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value Value="ComboBoxEx32" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="EnteringTextToHideLargerThanAllowedWarningMessage" Key="{57CF9BD9-5448-4A51-B01A-129E05BA835B}">
+								<Image FileName="-818005204" Left="0" Top="0" Right="485" Bottom="131" />
+								<TypeInfo Item0="{31BCB9F8-6605-44FD-A8B8-C88199CC138A}" />
+								<Properties>
+									<Property Name="QtClassName">
+										<Value Value="QMessageBox" />
+									</Property>
+									<Property Name="QtText">
+										<Value Value="You have exceeded the maximum number of characters for your container!" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="MessageBoxButtons" Key="{7039F231-5483-48B9-BFCC-D771D0172C8B}">
+										<Image FileName="1601018640" Left="19" Top="80" Right="466" Bottom="112" />
+										<Properties>
+											<Property Name="objectName">
+												<Value Value="qt_msgbox_buttonbox" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="BtnOk" Key="{76229412-63A5-4520-BD40-CCB3AF8C11D0}">
+												<Image FileName="1601018640" Left="391" Top="89" Right="466" Bottom="112" />
+												<TypeInfo Item0="{B13F0D08-6244-4EC2-81CC-2B157DAFE3B7}" />
+												<Properties>
+													<Property Name="QtClassName">
+														<Value Value="QPushButton" />
+													</Property>
+													<Property Name="QtText">
+														<Value Value="OK" />
+													</Property>
+													<Property Name="QtIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="SaveFileDialog" Key="{25AC1EF7-4B26-4E51-9F43-35A7D3B0ACC8}">
+								<Image FileName="121261754" Left="0" Top="0" Right="960" Bottom="540" />
+								<TypeInfo Item0="{0F40854E-FEA3-4DF8-9A66-D13B6DB315CA}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Save the resulting image" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DUIViewWndClassName" Key="{C05D4A12-F19B-4D8E-B2A6-8F610741789E}">
+										<Image FileName="-515482772" Left="8" Top="73" Right="952" Bottom="480" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="DUIViewWndClassName" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Explorer_Pane" Key="{A13B725B-1A40-46A0-B2A1-124408319BB1}">
+												<Image FileName="-515482772" Left="8" Top="73" Right="952" Bottom="480" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="DirectUI" />
+													</Property>
+													<Property Name="ClassName">
+														<Value Value="HWNDView" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="pane" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Explorer_Pane" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="FloatNotifySink" Key="{8328652D-9DF7-47D1-AA81-BF5E0B333F7A}">
+														<Image FileName="216679946" Left="133" Top="426" Right="947" Bottom="449" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="FloatNotifySink" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="ComboBox" Key="{6255202E-D4A8-43FD-8144-12BEC185618B}">
+																<Image FileName="216679946" Left="133" Top="426" Right="947" Bottom="449" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="ComboBox" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="Edit" Key="{07A51B17-755E-4D5E-BCAD-CC624089C06F}">
+																		<Image FileName="216679946" Left="136" Top="429" Right="927" Bottom="446" />
+																		<TypeInfo Item0="{91E044A0-EC57-4C4A-B862-AFFD14300280}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value Value="Edit" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="BtnSave" Key="{887DB6A4-1568-4EDE-BE04-BBCE00532CEF}">
+										<Image FileName="-451082659" Left="747" Top="494" Right="835" Bottom="520" />
+										<TypeInfo Item0="{44762082-5043-4F24-9CA9-699CDAD455E7}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="&amp;Save" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="InfoHider" Owner="{81483B93-BFD5-4D25-89E5-06F217C0C55E}">
+			<Child Name="MainWindow" Owner="{C10CCFAE-7ED6-4915-AF35-C96B0809CF79}">
+				<Child Name="CentralWidget" Owner="{7F713E09-567B-40FE-9A32-71FC8C894452}">
+					<Child Name="TabWidget" Owner="{DF9E407E-5FA4-48E5-B7A2-F6C9B6CF69AF}">
+						<Child Name="TabWidgetArea" Owner="{7B76C316-CC92-41A8-9BD8-B454E136C640}">
+							<Child Name="HideInfoTab" Owner="{F34DED3E-2428-4A29-89A6-A644C595D59F}">
+								<Child Name="LoadContainerSection" Owner="{DA15250E-010B-4A3E-B837-4346791DF7DB}">
+									<Child Name="BtnUploadImage" Owner="{12661F51-B609-41F4-90E5-86FB59DDC20B}" />
+									<Child Name="ImageContainer" Owner="{E5003F4B-D6BB-41FA-A111-64ADEB082944}" />
+									<Child Name="ImageResolution" Owner="{2023C99B-B384-4676-BD4B-16CA7F9EEE74}" />
+								</Child>
+								<Child Name="TextToHideSection" Owner="{CE48D9C6-340B-442E-9D98-F5125E8654DE}">
+									<Child Name="CharactersLeft" Owner="{A5E538E4-56A4-4EE2-9128-ECDB1B213CBA}" />
+									<Child Name="TextToHide" Owner="{8E2FA06C-BE22-49C6-930C-156086BA20F7}">
+										<Child Name="TextToHideArea" Owner="{AEDA0462-459E-4FD2-8508-958B3275F295}" />
+									</Child>
+									<Child Name="IsUseCryptography" Owner="{F9B01DFA-D805-4184-ABC4-E9F866A5765B}" />
+									<Child Name="SecretKey" Owner="{4A10E403-D49F-4001-8F8A-AEA2FE3C9D53}" />
+								</Child>
+								<Child Name="BtnHideInfo" Owner="{0F8FDD8D-03FD-4CA6-BFCF-36657183F0C9}" />
+							</Child>
+							<Child Name="GetInfoTab" Owner="{039F222E-1E37-4239-B16D-C5BB5FD1B1EE}">
+								<Child Name="ContainerWithDataSection" Owner="{B61693F1-EDD3-493C-8F48-56373E4D8AFF}">
+									<Child Name="BtnUploadImageWithData" Owner="{FDF5B938-19C9-480E-A0FF-71E24F11FDF6}" />
+									<Child Name="lePathToContainerWithData" Owner="{2B66C1D2-ADEA-46A5-9379-3A5D3E237B9A}" />
+								</Child>
+								<Child Name="ExtractedDataSection" Owner="{1CF489A3-7CD9-47E6-8671-4E9D7C2C04FD}">
+									<Child Name="ExtractedData" Owner="{0CE15DD1-EB9E-4AF6-AC10-A8B4A8912D33}" />
+									<Child Name="IsUseCryptoToExtract" Owner="{EB58B863-3220-4CA4-B2AC-F0A23F91A3DE}" />
+									<Child Name="SecretKey" Owner="{87F4B00F-8703-4BD9-B734-272335554B50}" />
+								</Child>
+								<Child Name="BtnExtractData" Owner="{EA30F521-F321-4EDD-92CD-2BB3CBC695B1}" />
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="OpenFileDialog" Owner="{EE4BE623-6998-4180-8A10-38B8ADEEA929}">
+				<Child Name="DUIViewWndClassName" Owner="{60314DFC-9FF4-4F9F-B61B-526127AB8DE7}">
+					<Child Name="Explorer_Pane" Owner="{B98DAFD8-E71B-40B5-B138-7B424743C87B}">
+						<Child Name="CtrlNotifySink" Owner="{9F239DD0-7D24-48FF-84B2-27575CECCDCF}">
+							<Child Name="ShellView" Owner="{99E5B7BD-D723-4602-8E98-BED54FCEAA69}">
+								<Child Name="Items_View" Owner="{33BA597D-52B0-437E-8E76-971CAC553E6B}">
+									<Child Name="Image_png" Owner="{095AB726-E668-430B-83CA-468C5B0DB2EE}" />
+									<Child Name="ResultImage_png" Owner="{682BB07B-8477-41E1-B67F-C46319FB0E5D}">
+										<Child Name="Name" Owner="{6B060D34-BDA6-4762-B6CF-847FC7A2261E}" />
+									</Child>
+									<Child Name="ResultImageWithCrypto_png" Owner="{F8307A0E-9945-41FB-B057-E9B8208B31A8}" />
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="btnOpen" Owner="{DE3CF9D8-3DC0-487A-B97C-D013DB473010}" />
+				<Child Name="cbxFileName" Owner="{E0F194C2-F327-4FEC-8656-C16459BD57FB}">
+					<Child Name="ComboBox" Owner="{3CBED562-6629-4B1E-B8D7-944C1F1014E0}">
+						<Child Name="Edit" Owner="{731F7F5B-D18C-426A-B586-F3C532050B5E}" />
+					</Child>
+				</Child>
+				<Child Name="WorkerW" Owner="{15E16B17-694E-49DB-AD9A-6ECC0F064D55}">
+					<Child Name="ReBarWindow32" Owner="{944114B4-C462-4494-8DBA-9387025C14CB}">
+						<Child Name="AddressBandRoot" Owner="{8CF10830-0D32-46C6-B61F-E488E86483E1}">
+							<Child Name="progress" Owner="{44CA77D6-93D1-4DAB-805F-CA7E15FAF6B2}">
+								<Child Name="BreadcrumbParent" Owner="{79203056-AEB0-400C-8361-9B3009709299}">
+									<Child Name="toolbarAddressDesktop" Owner="{0ACF2ADE-AA2A-4C2B-940B-2AD6F88BAFD3}" />
+								</Child>
+								<Child Name="comboBox" Owner="{9121B2C9-12E6-4826-B9C4-58034C10FF15}" />
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="EnteringTextToHideLargerThanAllowedWarningMessage" Owner="{57CF9BD9-5448-4A51-B01A-129E05BA835B}">
+				<Child Name="MessageBoxButtons" Owner="{7039F231-5483-48B9-BFCC-D771D0172C8B}">
+					<Child Name="BtnOk" Owner="{76229412-63A5-4520-BD40-CCB3AF8C11D0}" />
+				</Child>
+			</Child>
+			<Child Name="SaveFileDialog" Owner="{25AC1EF7-4B26-4E51-9F43-35A7D3B0ACC8}">
+				<Child Name="DUIViewWndClassName" Owner="{C05D4A12-F19B-4D8E-B2A6-8F610741789E}">
+					<Child Name="Explorer_Pane" Owner="{A13B725B-1A40-46A0-B2A1-124408319BB1}">
+						<Child Name="FloatNotifySink" Owner="{8328652D-9DF7-47D1-AA81-BF5E0B333F7A}">
+							<Child Name="ComboBox" Owner="{6255202E-D4A8-43FD-8144-12BEC185618B}">
+								<Child Name="Edit" Owner="{07A51B17-755E-4D5E-BCAD-CC624089C06F}" />
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="btnSave" Owner="{887DB6A4-1568-4EDE-BE04-BBCE00532CEF}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
 </Root>

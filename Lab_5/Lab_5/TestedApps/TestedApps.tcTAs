@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{AD4F3EC4-56B5-4F69-B7EC-9E32258C2526}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+	<config nodeName="TestedApps" />
+	<testData />
+	<data />
+	<children>
+		<child key="{3DA847F4-7541-4038-8285-648CC04EAB72}">
+			<config nodeName="Info_Hider" autorunOnRecording="True" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="C:\Users\mrkon\Desktop\Info-Hider\release" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="C:\Users\mrkon\Desktop\Info-Hider\release" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="C:\Users\mrkon\Desktop\Info-Hider\release" />
+					<param name="Simple" fileName="Info-Hider.exe" filePath="C:\Users\mrkon\Desktop\Info-Hider\release\" parameters="" workFolder="C:\Users\mrkon\Desktop\Info-Hider\release" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" version="14.0">
+	<children>
+		<child name="TestImgContainer" key="{7172496B-EA52-41A0-86A9-46A48C7325FC}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="TestImgContainer" ID="{7172496B-EA52-41A0-86A9-46A48C7325FC}" FileName="Regions\TestImgContainer.png" Update="False" />
+		</child>
+		<child name="EnteringTextToHideLargerThanAllowedWarningMessage" key="{4CFEADCD-3C5C-4442-93D0-797D1FE6E4E0}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="EnteringTextToHideLargerThanAllowedWarningMessage" ID="{4CFEADCD-3C5C-4442-93D0-797D1FE6E4E0}" FileName="Regions\EnteringTextToHideLargerThanAllowedWarningMessage.png" Update="False" />
+		</child>
+		<child name="SaveResultingImageDialog" key="{8D61DC6B-6406-4D72-A535-03E96A6BB837}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="SaveResultingImageDialog" ID="{8D61DC6B-6406-4D72-A535-03E96A6BB837}" FileName="Regions\SaveResultingImageDialog.png" Update="False" />
+		</child>
+	</children>
+</Root>

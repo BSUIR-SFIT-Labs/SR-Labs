@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{56D2E400-E337-480B-B967-C5ABB73C2112}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="44151.6580208333" objectName="Aliases.Info_Hider.MainWindow.CentralWidget.TabWidget" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi173350234175480.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="44151.6580439815" objectName="Aliases.Info_Hider.MainWindow.CentralWidget.TabWidget.TabWidget_Area.Hide_Info_Tab.Hide_Info_Tab_Area.Btn_Upload_Image" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi173352765175483.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="44151.6580671296" objectName="Aliases.Info_Hider.OpenFileDialog.DUIViewWndClassName.Explorer_Pane.CtrlNotifySink.ShellView.Items_View.Image_png" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi173354281175486.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="44151.6580787037" objectName="Aliases.Info_Hider.OpenFileDialog.btnOpen" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi1733556711754810.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="8" kind="0" dateTime="44151.6590972222" objectName="Aliases.Info_Hider.MainWindow" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi1734428751754811.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>
