@@ -119,6 +119,20 @@
       "targets": [],
       "value": "Hello test1@gmail.com"
     }, {
+      "id": "1bf65587-e3d7-4157-b52d-618a30f806be",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.navbar-nav:nth-child(1) > .nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/authentication/logout')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
       "id": "e4943641-120c-4ed2-8014-471131c34977",
       "comment": "",
       "command": "close",
@@ -678,6 +692,20 @@
       ],
       "value": "Hello test1@gmail.com"
     }, {
+      "id": "d8c8aebc-9156-4d7a-ae8a-af8ea556a6e7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.navbar-nav:nth-child(1) > .nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/authentication/logout')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
       "id": "b4b60c0d-95a7-4a1f-88a9-d5b8ccf93096",
       "comment": "",
       "command": "close",
@@ -922,6 +950,20 @@
       ],
       "value": "TestList"
     }, {
+      "id": "202ea386-006a-43b4-81de-01dd50a1a49b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.navbar-nav:nth-child(1) > .nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/authentication/logout')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
       "id": "e7e0a357-2267-4388-b873-0d460a422a50",
       "comment": "",
       "command": "close",
@@ -1088,6 +1130,20 @@
       ],
       "value": "TestListUpdate"
     }, {
+      "id": "e177900a-3319-40a6-924a-d39e506d562d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.navbar-nav:nth-child(1) > .nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/authentication/logout')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
       "id": "41f0438f-8cc7-4e40-bd19-452ad47dcfba",
       "comment": "",
       "command": "close",
@@ -1244,6 +1300,20 @@
         ["xpath=//div/div/div/ul/li[2]", "xpath:position"]
       ],
       "value": "10"
+    }, {
+      "id": "ff3b2174-6129-418d-b9d4-9f03d6f3fe6d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.navbar-nav:nth-child(1) > .nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/authentication/logout')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
     }, {
       "id": "002dcfbb-b6a3-4555-a9ae-be9b1c69ee80",
       "comment": "",
