@@ -7,10 +7,6 @@ namespace ProjectForTesting.Domain.ValueObjects
 {
     public class AdAccount : ValueObject
     {
-        private AdAccount()
-        {
-        }
-
         public string Domain { get; private set; }
 
         public string Name { get; private set; }
