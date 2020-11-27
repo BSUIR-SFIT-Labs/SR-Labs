@@ -84,6 +84,11 @@ namespace Selenium
 
                 j++;
             }
+
+            excelApp.Quit();
+            workSheet = null;
+            workbook = null;
+            excelApp = null;
         }
 
         [TearDown]
