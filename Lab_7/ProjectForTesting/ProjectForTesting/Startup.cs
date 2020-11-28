@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using ProjectForTesting.DataAccess;
+using ProjectForTesting.LoggerService;
 using ProjectForTesting.Persistence;
 
 namespace ProjectForTesting
@@ -28,6 +29,7 @@ namespace ProjectForTesting
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddTransient<IUnitOfWork, UnitOfWork>();
+            services.AddSingleton<ILoggerManager, LoggerManager>();
 
             services.AddSwaggerGen(c =>
             {
