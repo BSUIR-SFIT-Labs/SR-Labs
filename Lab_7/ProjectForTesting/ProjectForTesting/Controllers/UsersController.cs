@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using ProjectForTesting.DataAccess;
+using ProjectForTesting.DataAccess.Repositories;
 using ProjectForTesting.Domain.Entities;
 using ProjectForTesting.Domain.ValueObjects;
 using ProjectForTesting.Dtos;
@@ -13,11 +13,11 @@ namespace ProjectForTesting.Controllers
     public class UsersController : ControllerBase
     {
         private readonly ILoggerManager _logger;
-        private readonly IUnitOfWork _unitOfWork;
+        private readonly IRepository<User> _repository;
 
-        public UsersController(IUnitOfWork unitOfWork, ILoggerManager logger)
+        public UsersController(IRepository<User> repository, ILoggerManager logger)
         {
-            _unitOfWork = unitOfWork;
+            _repository = repository;
             _logger = logger;
         }
 
@@ -25,14 +25,14 @@ namespace ProjectForTesting.Controllers
         public async Task<IActionResult> GetById(int id)
         {
             _logger.LogInfo($"Get user by id '{id}'");
-            return Ok(await _unitOfWork.Users.GetByIdAsync(id));
+            return Ok(await _repository.GetByIdAsync(id));
         }
 
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
             _logger.LogInfo("Get all users");
-            return Ok(await _unitOfWork.Users.GetAllAsync());
+            return Ok(await _repository.GetAllAsync());
         }
 
         [HttpPost]
@@ -47,8 +47,7 @@ namespace ProjectForTesting.Controllers
 
             _logger.LogInfo($"Add user with firstname {userDto.Firstname}");
 
-            await _unitOfWork.Users.AddAsync(user);
-            await _unitOfWork.CommitAsync();
+            await _repository.AddAsync(user);
 
             return Ok();
         }
@@ -56,27 +55,26 @@ namespace ProjectForTesting.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, [FromBody] UserDto userDto)
         {
-            var user = await _unitOfWork.Users.GetByIdAsync(id);
-
-            user.Firstname = userDto.Firstname;
-            user.Surname = userDto.Surname;
-            user.Account = AdAccount.For(userDto.Account);
+            var user = new User
+            {
+                Firstname = userDto.Firstname,
+                Surname = userDto.Surname,
+                Account = AdAccount.For(userDto.Account)
+            };
 
             _logger.LogInfo($"Update user with id '{id}'");
 
-            _unitOfWork.Users.Update(user);
-            await _unitOfWork.CommitAsync();
+            await _repository.AddAsync(user);
 
             return Ok();
         }
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> Add(int id)
+        public async Task<IActionResult> Delete(int id)
         {
             _logger.LogInfo($"Delete user with id '{id}'");
 
-            await _unitOfWork.Users.DeleteByIdAsync(id);
-            await _unitOfWork.CommitAsync();
+            await _repository.DeleteByIdAsync(id);
 
             return Ok();
         }

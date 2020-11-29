@@ -5,7 +5,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-using ProjectForTesting.DataAccess;
+using ProjectForTesting.DataAccess.Repositories;
+using ProjectForTesting.Domain.Entities;
 using ProjectForTesting.LoggerService;
 using ProjectForTesting.Persistence;
 
@@ -28,7 +29,7 @@ namespace ProjectForTesting
             services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
-            services.AddTransient<IUnitOfWork, UnitOfWork>();
+            services.AddTransient<IRepository<User>, Repository<User>>();
             services.AddSingleton<ILoggerManager, LoggerManager>();
 
             services.AddSwaggerGen(c =>
